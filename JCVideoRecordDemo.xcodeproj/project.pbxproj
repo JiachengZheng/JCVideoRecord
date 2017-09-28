@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEE1FE21F7CA6C600C7D94A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE1FE11F7CA6C600C7D94A /* AppDelegate.m */; };
+		0BEE1FE51F7CA6C600C7D94A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE1FE41F7CA6C600C7D94A /* ViewController.m */; };
+		0BEE1FE81F7CA6C600C7D94A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE1FE61F7CA6C600C7D94A /* Main.storyboard */; };
+		0BEE1FEA1F7CA6C600C7D94A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE1FE91F7CA6C600C7D94A /* Assets.xcassets */; };
+		0BEE1FED1F7CA6C600C7D94A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE1FEB1F7CA6C600C7D94A /* LaunchScreen.storyboard */; };
+		0BEE1FF01F7CA6C600C7D94A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE1FEF1F7CA6C600C7D94A /* main.m */; };
+		0BEE20091F7CA89800C7D94A /* record_video_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE20041F7CA89800C7D94A /* record_video_back@2x.png */; };
+		0BEE200A1F7CA89800C7D94A /* record_video_confirm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE20051F7CA89800C7D94A /* record_video_confirm@2x.png */; };
+		0BEE200B1F7CA89800C7D94A /* record_video_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE20061F7CA89800C7D94A /* record_video_camera@2x.png */; };
+		0BEE200C1F7CA89800C7D94A /* record_video_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE20071F7CA89800C7D94A /* record_video_cancel@2x.png */; };
+		0BEE200D1F7CA89800C7D94A /* record_video_focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE20081F7CA89800C7D94A /* record_video_focus@2x.png */; };
+		0BEE20191F7CCB9900C7D94A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE20151F7CCB9900C7D94A /* UIColor+Hex.m */; };
+		0BEE201A1F7CCB9900C7D94A /* UIView+JCAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE20181F7CCB9900C7D94A /* UIView+JCAddition.m */; };
+		0BEE20241F7CD45F00C7D94A /* JCVideoRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE201E1F7CD45E00C7D94A /* JCVideoRecordManager.m */; };
+		0BEE20251F7CD45F00C7D94A /* JCVideoRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE20211F7CD45E00C7D94A /* JCVideoRecordView.m */; };
+		0BEE20261F7CD45F00C7D94A /* JCVideoRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE20221F7CD45E00C7D94A /* JCVideoRecordProgressView.m */; };
+		0BEE20271F7CD45F00C7D94A /* JCRecordPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE20231F7CD45E00C7D94A /* JCRecordPlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BEE1FDD1F7CA6C600C7D94A /* JCVideoRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCVideoRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEE1FE01F7CA6C600C7D94A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BEE1FE11F7CA6C600C7D94A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BEE1FE31F7CA6C600C7D94A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BEE1FE41F7CA6C600C7D94A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BEE1FE71F7CA6C600C7D94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BEE1FE91F7CA6C600C7D94A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BEE1FEC1F7CA6C600C7D94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BEE1FEE1F7CA6C600C7D94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BEE1FEF1F7CA6C600C7D94A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BEE20041F7CA89800C7D94A /* record_video_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record_video_back@2x.png"; sourceTree = "<group>"; };
+		0BEE20051F7CA89800C7D94A /* record_video_confirm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record_video_confirm@2x.png"; sourceTree = "<group>"; };
+		0BEE20061F7CA89800C7D94A /* record_video_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record_video_camera@2x.png"; sourceTree = "<group>"; };
+		0BEE20071F7CA89800C7D94A /* record_video_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record_video_cancel@2x.png"; sourceTree = "<group>"; };
+		0BEE20081F7CA89800C7D94A /* record_video_focus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record_video_focus@2x.png"; sourceTree = "<group>"; };
+		0BEE20151F7CCB9900C7D94A /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		0BEE20161F7CCB9900C7D94A /* UIView+JCAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JCAddition.h"; sourceTree = "<group>"; };
+		0BEE20171F7CCB9900C7D94A /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		0BEE20181F7CCB9900C7D94A /* UIView+JCAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JCAddition.m"; sourceTree = "<group>"; };
+		0BEE201C1F7CD45E00C7D94A /* JCVideoRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCVideoRecordView.h; sourceTree = "<group>"; };
+		0BEE201D1F7CD45E00C7D94A /* JCVideoRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCVideoRecordProgressView.h; sourceTree = "<group>"; };
+		0BEE201E1F7CD45E00C7D94A /* JCVideoRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCVideoRecordManager.m; sourceTree = "<group>"; };
+		0BEE201F1F7CD45E00C7D94A /* JCRecordPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRecordPlayerView.h; sourceTree = "<group>"; };
+		0BEE20201F7CD45E00C7D94A /* JCVideoRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCVideoRecordManager.h; sourceTree = "<group>"; };
+		0BEE20211F7CD45E00C7D94A /* JCVideoRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCVideoRecordView.m; sourceTree = "<group>"; };
+		0BEE20221F7CD45E00C7D94A /* JCVideoRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCVideoRecordProgressView.m; sourceTree = "<group>"; };
+		0BEE20231F7CD45E00C7D94A /* JCRecordPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRecordPlayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BEE1FDA1F7CA6C600C7D94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEE1FD41F7CA6C600C7D94A = {
+			isa = PBXGroup;
+			children = (
+				0BEE1FDF1F7CA6C600C7D94A /* JCVideoRecordDemo */,
+				0BEE1FDE1F7CA6C600C7D94A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BEE1FDE1F7CA6C600C7D94A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE1FDD1F7CA6C600C7D94A /* JCVideoRecordDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BEE1FDF1F7CA6C600C7D94A /* JCVideoRecordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE201B1F7CD45E00C7D94A /* VideoRecord */,
+				0BEE20141F7CCB9900C7D94A /* Additions */,
+				0BEE20031F7CA89800C7D94A /* image */,
+				0BEE1FE01F7CA6C600C7D94A /* AppDelegate.h */,
+				0BEE1FE11F7CA6C600C7D94A /* AppDelegate.m */,
+				0BEE1FE31F7CA6C600C7D94A /* ViewController.h */,
+				0BEE1FE41F7CA6C600C7D94A /* ViewController.m */,
+				0BEE1FE61F7CA6C600C7D94A /* Main.storyboard */,
+				0BEE1FE91F7CA6C600C7D94A /* Assets.xcassets */,
+				0BEE1FEB1F7CA6C600C7D94A /* LaunchScreen.storyboard */,
+				0BEE1FEE1F7CA6C600C7D94A /* Info.plist */,
+				0BEE1FEF1F7CA6C600C7D94A /* main.m */,
+			);
+			path = JCVideoRecordDemo;
+			sourceTree = "<group>";
+		};
+		0BEE20031F7CA89800C7D94A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE20041F7CA89800C7D94A /* record_video_back@2x.png */,
+				0BEE20051F7CA89800C7D94A /* record_video_confirm@2x.png */,
+				0BEE20061F7CA89800C7D94A /* record_video_camera@2x.png */,
+				0BEE20071F7CA89800C7D94A /* record_video_cancel@2x.png */,
+				0BEE20081F7CA89800C7D94A /* record_video_focus@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		0BEE20141F7CCB9900C7D94A /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE20151F7CCB9900C7D94A /* UIColor+Hex.m */,
+				0BEE20161F7CCB9900C7D94A /* UIView+JCAddition.h */,
+				0BEE20171F7CCB9900C7D94A /* UIColor+Hex.h */,
+				0BEE20181F7CCB9900C7D94A /* UIView+JCAddition.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		0BEE201B1F7CD45E00C7D94A /* VideoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE201C1F7CD45E00C7D94A /* JCVideoRecordView.h */,
+				0BEE20211F7CD45E00C7D94A /* JCVideoRecordView.m */,
+				0BEE201D1F7CD45E00C7D94A /* JCVideoRecordProgressView.h */,
+				0BEE20221F7CD45E00C7D94A /* JCVideoRecordProgressView.m */,
+				0BEE20201F7CD45E00C7D94A /* JCVideoRecordManager.h */,
+				0BEE201E1F7CD45E00C7D94A /* JCVideoRecordManager.m */,
+				0BEE201F1F7CD45E00C7D94A /* JCRecordPlayerView.h */,
+				0BEE20231F7CD45E00C7D94A /* JCRecordPlayerView.m */,
+			);
+			path = VideoRecord;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BEE1FDC1F7CA6C600C7D94A /* JCVideoRecordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEE1FF31F7CA6C600C7D94A /* Build configuration list for PBXNativeTarget "JCVideoRecordDemo" */;
+			buildPhases = (
+				0BEE1FD91F7CA6C600C7D94A /* Sources */,
+				0BEE1FDA1F7CA6C600C7D94A /* Frameworks */,
+				0BEE1FDB1F7CA6C600C7D94A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCVideoRecordDemo;
+			productName = JCVideoRecordDemo;
+			productReference = 0BEE1FDD1F7CA6C600C7D94A /* JCVideoRecordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BEE1FD51F7CA6C600C7D94A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = zhengjiacheng;
+				TargetAttributes = {
+					0BEE1FDC1F7CA6C600C7D94A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0BEE1FD81F7CA6C600C7D94A /* Build configuration list for PBXProject "JCVideoRecordDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BEE1FD41F7CA6C600C7D94A;
+			productRefGroup = 0BEE1FDE1F7CA6C600C7D94A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BEE1FDC1F7CA6C600C7D94A /* JCVideoRecordDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BEE1FDB1F7CA6C600C7D94A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEE200B1F7CA89800C7D94A /* record_video_camera@2x.png in Resources */,
+				0BEE1FED1F7CA6C600C7D94A /* LaunchScreen.storyboard in Resources */,
+				0BEE200D1F7CA89800C7D94A /* record_video_focus@2x.png in Resources */,
+				0BEE1FEA1F7CA6C600C7D94A /* Assets.xcassets in Resources */,
+				0BEE200A1F7CA89800C7D94A /* record_video_confirm@2x.png in Resources */,
+				0BEE20091F7CA89800C7D94A /* record_video_back@2x.png in Resources */,
+				0BEE200C1F7CA89800C7D94A /* record_video_cancel@2x.png in Resources */,
+				0BEE1FE81F7CA6C600C7D94A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BEE1FD91F7CA6C600C7D94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEE20271F7CD45F00C7D94A /* JCRecordPlayerView.m in Sources */,
+				0BEE201A1F7CCB9900C7D94A /* UIView+JCAddition.m in Sources */,
+				0BEE20261F7CD45F00C7D94A /* JCVideoRecordProgressView.m in Sources */,
+				0BEE20241F7CD45F00C7D94A /* JCVideoRecordManager.m in Sources */,
+				0BEE1FE51F7CA6C600C7D94A /* ViewController.m in Sources */,
+				0BEE20251F7CD45F00C7D94A /* JCVideoRecordView.m in Sources */,
+				0BEE1FF01F7CA6C600C7D94A /* main.m in Sources */,
+				0BEE20191F7CCB9900C7D94A /* UIColor+Hex.m in Sources */,
+				0BEE1FE21F7CA6C600C7D94A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BEE1FE61F7CA6C600C7D94A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEE1FE71F7CA6C600C7D94A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BEE1FEB1F7CA6C600C7D94A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEE1FEC1F7CA6C600C7D94A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BEE1FF11F7CA6C600C7D94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BEE1FF21F7CA6C600C7D94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BEE1FF41F7CA6C600C7D94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743LA4MC7A;
+				INFOPLIST_FILE = JCVideoRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengjiacheng.JCVideoRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BEE1FF51F7CA6C600C7D94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743LA4MC7A;
+				INFOPLIST_FILE = JCVideoRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengjiacheng.JCVideoRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BEE1FD81F7CA6C600C7D94A /* Build configuration list for PBXProject "JCVideoRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEE1FF11F7CA6C600C7D94A /* Debug */,
+				0BEE1FF21F7CA6C600C7D94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEE1FF31F7CA6C600C7D94A /* Build configuration list for PBXNativeTarget "JCVideoRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEE1FF41F7CA6C600C7D94A /* Debug */,
+				0BEE1FF51F7CA6C600C7D94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BEE1FD51F7CA6C600C7D94A /* Project object */;
+}
